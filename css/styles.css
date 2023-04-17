@@ -1,46 +1,51 @@
 body {
-	margin: 0;
-	background-color: #2B2E4A;
-	text-align: center;
+  margin: 0;
+  background-color: #2b2e4a;
+  text-align: center;
 }
 h1 {
-	font-family: 'Lobster', cursive;
-	font-size: 5rem;
-	color: #E84545;
-	margin: 5rem;
+  font-family: "Lobster", cursive;
+  font-size: 5rem;
+  color: #e84545;
+  margin: 5rem;
 }
 .dice {
-	display: flex;
-	justify-content: center;
-	column-gap: 10rem;
+  display: flex;
+  justify-content: center;
+  column-gap: 10rem;
 }
 
 .name {
-	font-family: 'Caveat', cursive;
-	font-size: 2.5rem;
-	color: #E84545;
-	margin: 0.5rem;
+  font-family: "Caveat", cursive;
+  font-size: 2.5rem;
+  color: #e84545;
+  margin: 0.5rem;
 }
 .dice-img {
-	width: 10rem;
+  width: 10rem;
+}
+.wins {
+  font-family: "Caveat", cursive;
+  font-size: 1.5rem;
+  color: #e84545;
+  margin: 0.5rem;
 }
 button {
-	/* Positioning */
-	padding: 0.25rem 1rem 0.75rem;
-	margin: 5rem;
-	/* Font styling*/
-	font-family: 'Lobster', cursive;
-	font-size: 2.5rem;
-	color: white;
-	/* Button styling*/
-	background-color: #903749;
-	border: none;
-	border-radius: 0.5rem;
-	cursor: pointer;
-	box-shadow: 0 0.5rem #53354A;
+  /* Positioning */
+  padding: 0.25rem 1rem 0.75rem;
+  margin: 5rem;
+  /* Font styling*/
+  font-family: "Lobster", cursive;
+  font-size: 2.5rem;
+  color: white;
+  /* Button styling*/
+  background-color: #903749;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  box-shadow: 0 0.5rem #53354a;
 }
 button:active {
-
-	box-shadow: 0 0.25rem #53354A;
-	transform: translateY(0.25rem);
+  box-shadow: 0 0.25rem #53354a;
+  transform: translateY(0.25rem);
 }
